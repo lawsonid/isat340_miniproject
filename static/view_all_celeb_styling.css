@@ -1,0 +1,18 @@
+
+body {
+  background-color: steelblue;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.double {
+  border-style: double;
+  border-color: white;
+  font-family: "Garamond", serif;
+  color: white;
+}

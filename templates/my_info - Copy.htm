@@ -1,0 +1,30 @@
+<html>
+	<body>
+		<form action='/' method="post">
+			<table>
+				<tr>
+					<td>Name </td>
+					<td><input type="text" name="name" value="{{name}}"/></td>				
+				</tr>
+				<tr>
+					<td>Age</td>
+					<td><input type="text" name="age" value="{{age}}"/></td>
+				</tr>			
+				<tr>
+					<td>Photo url</td>
+					<td><input type="text" name="photo" value="{{photo}}"/> </td>
+				</tr>				
+				<tr>
+					<td>Bio</td>
+					<td><textarea name="bio">{{bio}}</textarea></td>				
+				</tr>
+				<tr>
+					<td>
+						<input type="submit"></input>
+					</td>
+					<td> <img src="{{ url_for('static', filename = 'tony.jpg') }}" width="110" height="130"></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
