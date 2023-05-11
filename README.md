@@ -14,10 +14,9 @@ To run the application, please follow the instructions provided above. We have a
 To use the web application, follow these steps:
 
 1. Clone or download the repository from GitHub.
-2. Ensure that you have Python and Flask installed on your local machine.
-3. Navigate to the project directory in your terminal.
-4. Run the command "python FlaskAppProject.py" in the terminal to start the Flask server.
-5. Once the server is running, open your web browser and navigate to "http://localhost:5000/" to access the web application.
+2. Navigate to the project directory in your terminal.
+3. Run the command "python FlaskAppProject.py" in the terminal to start the Flask server.
+4. Once the server is running, open your web browser and navigate to "http://localhost:5000/" to access the web application.
 
 To login, use either:
 
